@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webrisestudiode.github.io/cafe-sonnenschein/sitemap.xml

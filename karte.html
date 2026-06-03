@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speisekarte – Café Sonnenschein Berlin</title>
+  <meta name="description" content="Unsere Speisekarte: Kaffeespezialitäten, Tee & Kaltgetränke, Frühstück, hausgemachte Kuchen und Snacks. Café Sonnenschein, Sonnenallee 7, Berlin." />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Speisekarte – Café Sonnenschein Berlin" />
+  <meta property="og:description" content="Kaffeespezialitäten, Frühstück, hausgemachte Kuchen – entdecke unsere volle Karte." />
+  <meta property="og:url"         content="https://webrisestudiode.github.io/cafe-sonnenschein/karte.html" />
+  <meta property="og:image"       content="https://webrisestudiode.github.io/cafe-sonnenschein/img/og-image.jpg" />
+  <meta property="og:locale"      content="de_DE" />
+  <meta name="twitter:card"       content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon"             href="favicon.ico" />
+  <link rel="icon"             type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon"             type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://webrisestudiode.github.io/cafe-sonnenschein/karte.html" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Personalized Banner -->
+  <div id="personalized-banner">
+    Guten Tag Herr <span id="banner-name"></span> – so könnte Ihre Website aussehen &nbsp;·&nbsp; Alle Inhalte sind Beispieldaten
+  </div>
+  <script>(function(){var p=new URLSearchParams(window.location.search),f=p.get('firma'),n=p.get('name');if(f&&n){var b=document.getElementById('personalized-banner'),nameEl=document.getElementById('banner-name');if(b&&nameEl){nameEl.textContent=n;b.style.display='block';}}})()</script>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" style="display:none;" role="dialog" aria-label="Cookie-Hinweis">
+    <p>Wir verwenden Cookies, um Ihnen das beste Erlebnis zu bieten. Mit der Nutzung unserer Website stimmen Sie dem zu.</p>
+    <button id="cookie-accept">Verstanden</button>
+  </div>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Hauptnavigation">
+        <a href="index.html" class="nav-logo" aria-label="Café Sonnenschein – Startseite">
+          <span class="logo-dot" aria-hidden="true"></span>
+          Café Sonnenschein
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="karte.html" class="active">Speisekarte</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="kontakt.html" class="nav-cta">Besuchen</a></li>
+        </ul>
+
+        <button class="nav-hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+
+    <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile Navigation">
+      <a href="index.html">Start</a>
+      <a href="karte.html">Speisekarte</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html">Jetzt besuchen</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ==================== KARTE HERO ==================== -->
+    <section class="karte-hero" aria-labelledby="karte-heading">
+      <div class="container">
+        <span class="section-label">Was wir anbieten</span>
+        <h1 id="karte-heading">Unsere Speisekarte</h1>
+        <p>Alles frisch zubereitet — mit Liebe, guten Zutaten und einem Lächeln.</p>
+      </div>
+    </section>
+
+    <!-- ==================== STICKY MENU NAV ==================== -->
+    <nav class="menu-nav" aria-label="Kategorien springen">
+      <div class="container">
+        <div class="menu-nav-inner">
+          <button class="menu-tab active" data-target="kaffeespezialitaeten">☕ Kaffee</button>
+          <button class="menu-tab" data-target="tee-kaltgetraenke">🍵 Tee & Kalt</button>
+          <button class="menu-tab" data-target="fruehstueck">🥐 Frühstück</button>
+          <button class="menu-tab" data-target="kuchen">🍰 Kuchen</button>
+          <button class="menu-tab" data-target="snacks">🥪 Snacks</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== MENU SECTIONS ==================== -->
+    <div class="container">
+
+      <!-- ---- 1. Kaffeespezialitäten ---- -->
+      <section class="menu-section" id="kaffeespezialitaeten" aria-labelledby="kaffee-heading">
+        <div class="menu-section-header reveal">
+          <div class="menu-section-icon" aria-hidden="true">☕</div>
+          <div>
+            <h2 id="kaffee-heading">Kaffeespezialitäten</h2>
+            <p>Specialty Coffee aus nachhaltigen Röstereien — handgefertigt mit Bio-Vollmilch und Liebe zum Detail.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Espresso</h4>
+              <p>Kräftig, komplex und cremig — unser Hausesspresso aus der Siebträgermaschine.</p>
+              <span class="menu-item-tag">Single Origin</span>
+            </div>
+            <div class="menu-item-price">2,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Doppio</h4>
+              <p>Doppelter Espresso — für den Start in einen langen Tag.</p>
+            </div>
+            <div class="menu-item-price">3,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Cappuccino</h4>
+              <p>Espresso mit samtiger Bio-Milch und einem Hauch Milchschaum — perfekt ausgewogen.</p>
+              <span class="menu-item-tag">Bio-Milch</span>
+            </div>
+            <div class="menu-item-price">3,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Flat White</h4>
+              <p>Doppelter Ristretto mit feinem Mikroschaum — kräftiger Kaffeegeschmack, wenig Schaum.</p>
+              <span class="menu-item-tag yellow">Bestseller</span>
+            </div>
+            <div class="menu-item-price">4,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Latte Macchiato</h4>
+              <p>Sanft geschichtete Bio-Milch mit einem kräftigen Espressoshot — für die süße Stunde.</p>
+            </div>
+            <div class="menu-item-price">4,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Café au Lait</h4>
+              <p>Filterkaffe mit aufgeschäumter Bio-Milch — der gemütliche Klassiker.</p>
+            </div>
+            <div class="menu-item-price">3,90 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Pour-Over (V60)</h4>
+              <p>Handgefilterter Kaffee — langsam, bewusst, aromatisch. Mit wechselnden Single-Origin-Bohnen.</p>
+              <span class="menu-item-tag">Wechselnde Bohnen</span>
+            </div>
+            <div class="menu-item-price">4,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Matcha Latte</h4>
+              <p>Zeremonielle Matchapaste aus Japan mit schaumiger Bio-Hafermilch oder Vollmilch.</p>
+              <span class="menu-item-tag">Optional vegan</span>
+            </div>
+            <div class="menu-item-price">5,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Iced Latte</h4>
+              <p>Espresso über Eis mit kalter Milch — erfrischend und aromatisch.</p>
+              <span class="menu-item-tag yellow">Sommer-Favorit</span>
+            </div>
+            <div class="menu-item-price">4,60 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Oat-Milk Upgrade</h4>
+              <p>Alle Kaffees auch mit Bio-Hafermilch oder Mandelmilch erhältlich.</p>
+            </div>
+            <div class="menu-item-price">+ 0,60 €</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---- 2. Tee & Kaltgetränke ---- -->
+      <section class="menu-section" id="tee-kaltgetraenke" aria-labelledby="tee-heading">
+        <div class="menu-section-header reveal">
+          <div class="menu-section-icon" aria-hidden="true">🍵</div>
+          <div>
+            <h2 id="tee-heading">Tee &amp; Kaltgetränke</h2>
+            <p>Bio-Teesorten, hausgemachte Limonaden und erfrischende Kaltgetränke.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Bio-Tee (Kanne)</h4>
+              <p>Wechselnde Sorten: Pfefferminze, Kamille, Früchtetee, Grüner Tee, Ingwer-Zitrone.</p>
+              <span class="menu-item-tag">Bio</span>
+            </div>
+            <div class="menu-item-price">3,40 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Chai Latte</h4>
+              <p>Aromatischer Chai-Gewürztee mit schaumiger Bio-Milch — wärmend und würzig.</p>
+            </div>
+            <div class="menu-item-price">4,40 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Hausgemachte Limonade</h4>
+              <p>Täglich frisch: Zitrone-Minze, Erdbeer-Basilikum oder Gurke-Ingwer.</p>
+              <span class="menu-item-tag yellow">Hausgemacht</span>
+            </div>
+            <div class="menu-item-price">4,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Frischer Orangensaft</h4>
+              <p>Frisch gepresst — vier bis fünf saftige Orangen, pur und ohne Zusätze.</p>
+            </div>
+            <div class="menu-item-price">4,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Mineral- oder Leitungswasser</h4>
+              <p>Stilles oder sprudelndes Mineralwasser, 0,5 l.</p>
+            </div>
+            <div class="menu-item-price">2,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Bio-Schorle</h4>
+              <p>Apfel, Johannisbeere oder Holunder — regional und ohne künstliche Aromen.</p>
+              <span class="menu-item-tag">Bio</span>
+            </div>
+            <div class="menu-item-price">3,20 €</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---- 3. Frühstück ---- -->
+      <section class="menu-section" id="fruehstueck" aria-labelledby="frueh-heading">
+        <div class="menu-section-header reveal">
+          <div class="menu-section-icon" aria-hidden="true">🥐</div>
+          <div>
+            <h2 id="frueh-heading">Frühstück</h2>
+            <p>Serviert Mo–Fr bis 12:00 Uhr, Sa–So bis 13:00 Uhr. Alle Zutaten so regional wie möglich.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Sonnenschein-Frühstücksbrett</h4>
+              <p>Brot & Brötchen, Aufschnitt, Käse, Marmelade, Butter, Ei, Obst & ein Heißgetränk.</p>
+              <span class="menu-item-tag yellow">Bestseller</span>
+            </div>
+            <div class="menu-item-price">14,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Avocado-Toast</h4>
+              <p>Geröstetes Sauerteigbrot, Avocadocreme, Cherrytomaten, Microgreens, Chiliflocken.</p>
+              <span class="menu-item-tag">Vegan</span>
+            </div>
+            <div class="menu-item-price">9,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Lachs-Bagel</h4>
+              <p>Frischer Bagel mit Frischkäse, geräuchertem Lachs, roten Zwiebeln und Kapern.</p>
+            </div>
+            <div class="menu-item-price">11,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Rührei auf Toast</h4>
+              <p>Cremiges Rührei auf Weißbrot, mit frischen Kräutern und Butter.</p>
+            </div>
+            <div class="menu-item-price">8,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Granola Bowl</h4>
+              <p>Hausgemachtes Granola mit griechischem Joghurt, Beeren und Honig.</p>
+              <span class="menu-item-tag yellow">Hausgemacht</span>
+            </div>
+            <div class="menu-item-price">7,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Veganes Frühstück</h4>
+              <p>Scrambled Tofu, Sauerteigbrot, geröstete Tomaten, Spinat und gebratene Champignons.</p>
+              <span class="menu-item-tag">Vegan</span>
+            </div>
+            <div class="menu-item-price">10,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Croissant &amp; Butter</h4>
+              <p>Buttrig-knuspriges Croissant mit hausgemachter Marmelade und Butter.</p>
+            </div>
+            <div class="menu-item-price">3,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Bircher Müsli</h4>
+              <p>Overnight-Müsli mit Apfel, Haferflocken, Zimt und Mandeln — vegan möglich.</p>
+            </div>
+            <div class="menu-item-price">6,50 €</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---- 4. Kuchen & Gebäck ---- -->
+      <section class="menu-section" id="kuchen" aria-labelledby="kuchen-heading">
+        <div class="menu-section-header reveal">
+          <div class="menu-section-icon" aria-hidden="true">🍰</div>
+          <div>
+            <h2 id="kuchen-heading">Kuchen &amp; Gebäck</h2>
+            <p>Täglich frisch gebacken von Sandra und ihrem Team — nach Familienrezepten und Saison.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Zitronentarte</h4>
+              <p>Knuspriger Mürbeteig, cremige Zitronencurd-Füllung, karamellisiertes Baiser.</p>
+              <span class="menu-item-tag yellow">Sandra's Favorit</span>
+            </div>
+            <div class="menu-item-price">4,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Schokoladenbrownie</h4>
+              <p>Fudgy und schokoladig — ein intensiver Schokogenuss mit Walnüssen.</p>
+            </div>
+            <div class="menu-item-price">3,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Veganer Beeren-Cheesecake</h4>
+              <p>Cashew-Käsekuchen ohne Backen, mit frischen Beeren und Dattelboden.</p>
+              <span class="menu-item-tag">Vegan · GF</span>
+            </div>
+            <div class="menu-item-price">5,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Apfelkuchen mit Streuseln</h4>
+              <p>Klassischer Apfelkuchen mit zimtigen Streuseln — warm serviert mit Vanillesauce.</p>
+              <span class="menu-item-tag yellow">Saisonal</span>
+            </div>
+            <div class="menu-item-price">4,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Karottenkuchen</h4>
+              <p>Saftig, mit Walnüssen und Frischkäsetopping — ein Klassiker neu interpretiert.</p>
+            </div>
+            <div class="menu-item-price">4,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Banana Bread</h4>
+              <p>Saftiges Bananenbrot mit Schokoladenstückchen — vegan und ohne raffinierten Zucker.</p>
+              <span class="menu-item-tag">Vegan</span>
+            </div>
+            <div class="menu-item-price">3,60 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Zimtschnecke</h4>
+              <p>Weicher Hefeteig mit Zimtzuckerfüllung und Frischkäseglasur — frisch gebacken.</p>
+              <span class="menu-item-tag yellow">Hausgemacht</span>
+            </div>
+            <div class="menu-item-price">3,90 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Tarte du Jour</h4>
+              <p>Täglich wechselnde Tarte — fragt unsere Crew nach dem heutigen Angebot.</p>
+              <span class="menu-item-tag">Täglich neu</span>
+            </div>
+            <div class="menu-item-price">ab 4,50 €</div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---- 5. Snacks ---- -->
+      <section class="menu-section" id="snacks" aria-labelledby="snacks-heading">
+        <div class="menu-section-header reveal">
+          <div class="menu-section-icon" aria-hidden="true">🥪</div>
+          <div>
+            <h2 id="snacks-heading">Snacks</h2>
+            <p>Kleine Zwischenmahlzeiten — herzhaft, leicht und frisch.</p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Sauerteig-Sandwich</h4>
+              <p>Ofenwarm mit Mozzarella, getrockneten Tomaten, Pesto und frischem Basilikum.</p>
+              <span class="menu-item-tag">Vegetarisch</span>
+            </div>
+            <div class="menu-item-price">7,80 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Hummus-Bowl</h4>
+              <p>Cremiger Hummus, Fladenbrot, Oliven, Cherrytomaten und Za'atar.</p>
+              <span class="menu-item-tag">Vegan</span>
+            </div>
+            <div class="menu-item-price">8,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Käse-Platte</h4>
+              <p>Auswahl saisonaler Käsesorten mit Trauben, Walnüssen und Crackern.</p>
+            </div>
+            <div class="menu-item-price">9,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Energy Balls (3 Stück)</h4>
+              <p>Datteln, Haferflocken, Erdnussbutter und Kakao — der gesunde Snack für zwischendurch.</p>
+              <span class="menu-item-tag">Vegan · GF</span>
+            </div>
+            <div class="menu-item-price">3,50 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Bagel mit Cream Cheese</h4>
+              <p>Frischer Bagel mit Frischkäse und Schnittlauch — einfach gut.</p>
+            </div>
+            <div class="menu-item-price">5,20 €</div>
+          </article>
+
+          <article class="menu-item reveal">
+            <div class="menu-item-info">
+              <h4>Salatbowl des Tages</h4>
+              <p>Frischer Saisonsalat mit Topping nach Wahl — täglich wechselnde Zusammenstellung.</p>
+              <span class="menu-item-tag yellow">Täglich neu</span>
+            </div>
+            <div class="menu-item-price">9,80 €</div>
+          </article>
+        </div>
+
+        <p class="reveal" style="margin-top:2rem;color:var(--clr-sage);font-size:.875rem;">
+          Alle Preise inkl. MwSt. Änderungen vorbehalten. Allergene auf Anfrage. GF = glutenfrei.
+        </p>
+      </section>
+
+    </div><!-- /container -->
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" aria-label="Seiten-Footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" aria-label="Café Sonnenschein">
+            <span class="logo-dot" aria-hidden="true"></span>
+            Café Sonnenschein
+          </a>
+          <p>Wo jeder Tag mit gutem Kaffee beginnt — hausgemachte Kuchen, herzliches Frühstück und Specialty Coffee in Berlin.</p>
+          <div class="footer-socials" aria-label="Social Media">
+            <a href="#" aria-label="Instagram" rel="noopener">📸</a>
+            <a href="#" aria-label="Facebook" rel="noopener">👍</a>
+            <a href="#" aria-label="TikTok" rel="noopener">🎵</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="karte.html">Speisekarte</a></li>
+            <li><a href="kontakt.html">Kontakt &amp; Anfahrt</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <address>
+            Sonnenallee 7<br />
+            10437 Berlin<br />
+            <a href="tel:03098765432" style="color:rgba(255,255,255,.6);">030 987 654 32</a><br />
+            <a href="mailto:hallo@cafe-sonnenschein.de" style="color:rgba(255,255,255,.6);">hallo@cafe-sonnenschein.de</a>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Café Sonnenschein. Dies ist eine Beispiel-Website erstellt von <a href="https://webrisestudio.de" rel="noopener" target="_blank">Webrise Studio</a>.</p>
+        <p><a href="#">Impressum</a> &nbsp;·&nbsp; <a href="#">Datenschutz</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
